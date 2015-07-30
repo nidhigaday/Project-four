@@ -18,6 +18,7 @@ pre, code { font-family: monospace, monospace; font-size: 1em; }
 ul, ol { margin: 1em 0; padding: 0 0 0 20px; }
 ul li { list-style-type: none; }
 img { max-width: 100%; }
+p { font-size: 2em;}
 
 
 body { background: #f8f8f8; }
