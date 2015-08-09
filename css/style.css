@@ -10,7 +10,7 @@ pre, code{font-family:monospace, monospace;font-size:1em;}
 ul, ol{margin:10px 20px;padding:0 20px;}
 ul li{list-style-type:none;padding:0 32px;}
 img{max-width:100%;}
-p{font-size:15px;}
+p{font-size:15px;padding:0 20px;}
 body{background:#f8f8f8;}
 header, .container{max-width:80%;margin:0 auto;}
 header, .content{background-color:#222;}
