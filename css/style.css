@@ -27,10 +27,3 @@ header p span{font-size:14px;font-weight:normal;}
 li img{width:100%;}
 li p{font-size:1em;font-style:italic;}
 footer span{float:right;font-style:italic;}
-@media only screen and (max-width:480px){body{font-size:12px;}
-header, footer, .container{max-width:90%;}
-header p{padding-left:72px;}
-ul li {display: block;}
-.content ul {display:block;}
-li img {float: none;}
-}
