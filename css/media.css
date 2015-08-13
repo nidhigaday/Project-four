@@ -1,0 +1,7 @@
+@media only screen and (max-width:480px){body{font-size:12px;}
+header, footer, .container{max-width:90%;}
+header p{padding-left:72px;}
+ul li {display: block;}
+.content ul {display:block;}
+li img {float: none;}
+}
