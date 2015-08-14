@@ -11,8 +11,6 @@ ul li{list-style-type:none;padding:0 32px;}
 img{max-width:100%;}
 p{font-size:15px;padding:0 20px;}
 body{background:#f8f8f8;}
-header, .container{max-width:80%;margin:0 auto;}
-header, .content{background-color:#222;}
 .hero, .content{margin-bottom:21px;}
 .hero, footer{border-top:3px solid #595959;}
 header{color:#FFF;}
