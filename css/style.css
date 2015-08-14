@@ -16,7 +16,6 @@ header p span{font-size:14px;font-weight:normal;}
 .content{padding:20px 10px;color:#FFF;}
 a{color:#69BB5B;text-decoration:none;}
 a:visited{color:#F0EF63;}
-a:hover, a:active{color:#F00;outline:0;}
 b, strong{font-weight:bold;}
 pre, code{font-family:monospace, monospace;font-size:1em;}
 ul, ol{margin:10px;padding:0 20px;}
