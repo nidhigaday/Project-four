@@ -6,7 +6,7 @@ a:visited{color:#F0EF63;}
 a:hover, a:active{color:#F00;outline:0;}
 b, strong{font-weight:bold;}
 pre, code{font-family:monospace, monospace;font-size:1em;}
-ul, ol{margin:10px 10px;padding:0 20px;}
+ul, ol{margin:10px;padding:0 20px;}
 ul li{list-style-type:none;padding:0 32px;}
 img{max-width:100%;}
 p{font-size:15px;padding:0 20px;}
