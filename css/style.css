@@ -4,7 +4,7 @@ body, button, input, select, textarea{font-family:'Open Sans', sans-serif;color:
 img{max-width:100%;}
 p{font-size:15px;padding:0 20px;}
 body{background:#f8f8f8;}
-header, .container{max-width:80%;margin:0 auto;font-family:"Lucida Sans Unicode","Lucida Grande";}
+header, .container{max-width:80%;margin:0 auto;font-family:"Comic Sans MS", cursive, sans-serif;}
 header, .content{background-color:#222;}
 .hero, .content{margin-bottom:21px;}
 .hero, footer{border-top:3px solid #595959;}
