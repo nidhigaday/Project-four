@@ -1,16 +1,11 @@
 html{font-size:100%;overflow-y:scroll;-webkit-tap-highlight-color:rgba(0,0,0,0);-ms-text-size-adjust:100%;-webkit-text-size-adjust:none;}
 body{margin:0;font-size:14px;line-height:1.61;font-weight:400;}
 body, button, input, select, textarea{font-family:'Open Sans', sans-serif;color:#333;}
-a{color:#69BB5B;text-decoration:none;}
-a:visited{color:#F0EF63;}
-a:hover, a:active{color:#F00;outline:0;}
-b, strong{font-weight:bold;}
-pre, code{font-family:monospace, monospace;font-size:1em;}
-ul, ol{margin:10px;padding:0 20px;}
-ul li{list-style-type:none;padding:0 32px;}
 img{max-width:100%;}
 p{font-size:15px;padding:0 20px;}
 body{background:#f8f8f8;}
+header, .container{max-width:80%;margin:0 auto;}
+header, .content{background-color:#222;}
 .hero, .content{margin-bottom:21px;}
 .hero, footer{border-top:3px solid #595959;}
 header{color:#FFF;}
@@ -19,6 +14,13 @@ header p{font-size:24px;font-weight:bold;padding:8px 24px;}
 header p span{font-size:14px;font-weight:normal;}
 .hero{padding:1em;font-size:1.2em;border-bottom:3px solid #595959;text-align:center;}
 .content{padding:20px 10px;color:#FFF;}
+a{color:#69BB5B;text-decoration:none;}
+a:visited{color:#F0EF63;}
+a:hover, a:active{color:#F00;outline:0;}
+b, strong{font-weight:bold;}
+pre, code{font-family:monospace, monospace;font-size:1em;}
+ul, ol{margin:10px;padding:0 20px;}
+ul li{list-style-type:none;padding:0 32px;}
 .content ul {display:flex;}
 .content li{font-size:1.1em;padding:2px 10px 2px 0;}
 li img{width:100%;}
