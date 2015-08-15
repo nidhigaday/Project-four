@@ -11,8 +11,6 @@
     <link href="css/print.css" rel="stylesheet" media="print">
     <link href="css/media.css" rel="stylesheet" media="(max-width:480px)">
 
-    <link href='http://fonts.googleapis.com/css?family=Amaranth:400,700' async rel='stylesheet' type='text/css'>
-
     <script>
       (function(w,g){w['GoogleAnalyticsObject']=g;
       w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
@@ -57,6 +55,20 @@
           </li>
         </ul>
     </div>
+    
+    <script>
+WebFontConfig = {
+google: {
+families: ['Amaranth:400,700']
+}
+};
+
+  (function(d) {
+    var wf = d.createElement('script'), s = d.scripts[0];
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
+    s.parentNode.insertBefore(wf, s);
+  })(document);
+</script>
 
     <footer>
       <p>&copy; Web Performance 2015 <span id="crp-stats"></span></p>
