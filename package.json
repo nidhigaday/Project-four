@@ -1,0 +1,25 @@
+{
+  "name": "project-four",
+  "version": "1.0.0",
+  "description": "Website Optimizatio Project",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nidhigaday/Project-four.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "NidhiGaday",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nidhigaday/Project-four/issues"
+  },
+  "homepage": "https://github.com/nidhigaday/Project-four#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
