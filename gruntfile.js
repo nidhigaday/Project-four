@@ -24,13 +24,13 @@ module.exports = function(grunt) {
           }
       },
 
-      htmlmin: {                                     // Task
+      htmlmin: {                                       // Task
           dist: {                                      // Target
-              options: {                                 // Target options
+              options: {                               // Target options
                   removeComments: true,
                   collapseWhitespace: true
               },
-              files: {                                   // Dictionary of files
+              files: {                                 // Dictionary of files
                   'minified/index.html': 'Src/index.html',     // 'destination': 'source'
                   'minified/project-webperf.html': 'src/project-webperf.html'
               }
@@ -45,7 +45,7 @@ module.exports = function(grunt) {
                         'css/style.css',
                         'css/media.css'
                       ],
-                      width: 320,
+                      width: 320,                       // viewport width and height
                       height: 70
               },
               files:{
