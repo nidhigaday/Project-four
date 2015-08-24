@@ -1,0 +1,19 @@
+{
+  "name": "project-four",
+  "version": "1.0.0",
+  "description": "Website Performance Optimization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nidhigaday/Project-four.git"
+  },
+  "author": "NidhiGaday",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nidhigaday/Project-four/issues"
+  },
+  "homepage": "https://github.com/nidhigaday/Project-four#readme"
+}
