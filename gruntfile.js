@@ -1,4 +1,5 @@
 module.exports = function(grunt) {
+
   grunt.initConfig({
     cssmin: {
       target: {
@@ -30,7 +31,7 @@ module.exports = function(grunt) {
           collapseWhitespace: true
         },
         files: {                                   // Dictionary of files
-          'index-minify.html': 'Src/index.html',     // 'destination': 'source'
+          'minified/index.html': 'Src/index.html',     // 'destination': 'source'
           //'dist/contact.html': 'src/contact.html'
         }
       }
@@ -47,7 +48,7 @@ module.exports = function(grunt) {
             width: 320,
             height: 70
         },
-        src: 'index-minify.html',
+        src: 'minified/index.html',
         dest: 'index.html'
       }
     }
