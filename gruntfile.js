@@ -6,14 +6,27 @@ module.exports = function(grunt) {
           expand: true,
           cwd: '*/css',
           src: ['*.css', '!*.min.css'],
-          dest: '*/css',
+          dest: 'Project-four/css',
           ext: '.min.css'
         }]
       }
+    },
+
+    imagemin: {
+      dynamic: {                         // Another target
+        files: [{
+          expand: true,                  // Enable dynamic expansion
+          cwd: 'img/',                   // Src matches are relative to this path
+          src: ['*.{png,jpg,gif}'],      // Actual patterns to match
+          dest: 'img/'                   // Destination path prefix
+        }]
+      }
     }
+
   });
 
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
 
-  grunt.registerTasks('default', ['cssmin']);
+  grunt.registerTasks('default', ['cssmin', 'imagemin']);
 };
