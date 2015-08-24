@@ -13,7 +13,7 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.loadNomTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   grunt.registerTasks('default', ['cssmin']);
 };
