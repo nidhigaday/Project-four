@@ -4,15 +4,15 @@ module.exports = function(grunt) {
       dist: {
         cwd: 'Project-four/', expand: true, src: '**', dest: 'dist/'
       }
-    }
-    /* Remove unused CSS across multiple files, compressing the final output
+    },
+    // Remove unused CSS across multiple files, compressing the final output
     uncss: {
       dist: {
         files: [
-          { src: 'Project-four/*.html', dest: 'dist/css/compiled.min.css'}
+          { src: 'src/*.html', dest: 'dist/css/compiled.min.css'}
         ]
-      },
-      options: {
+      }
+      /*options: {
         compress:true
       }
     },
@@ -33,9 +33,9 @@ module.exports = function(grunt) {
   });
   // Load the plugins
   grunt.loadNpmTasks('grunt-contrib-copy');
-  //grunt.loadNpmTasks('grunt-uncss');
+  grunt.loadNpmTasks('grunt-uncss');
   //grunt.loadNpmTasks('grunt-processhtml');
   //grunt.loadNpmTasks('grunt-contrib-uglify');
   // Default tasks.
-  grunt.registerTask('default', ['copy']);
+  grunt.registerTask('default', ['copy', 'uncss']);
 };
