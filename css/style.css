@@ -12,7 +12,7 @@ header{color:#FFF;}
 header img{border-radius:40px;float:left;padding:8px;}
 header p{font-size:24px;font-weight:bold;padding:8px 24px;}
 header p span{font-size:14px;font-weight:normal;}
-.hero{padding:1em;font-size:1.2em;border-bottom:3px solid #595959;text-align:center;}
+.hero{padding:1em;font-size:14px;border-bottom:3px solid #595959;text-align:center;}
 .content{padding:20px 10px;color:#FFF;}
 a{color:#69BB5B;text-decoration:none;}
 a:visited{color:#F0EF63;}
@@ -21,7 +21,8 @@ pre, code{font-family:monospace, monospace;font-size:1em;}
 ul, ol{margin:10px;padding:0 20px;}
 ul li{list-style-type:none;padding:0 32px;}
 ul li:hover {display: inline-block;width: 500px;}
-.content ul {display:flex;}
+.content p{font-size:12px;}
+.content ul{display:flex;}
 .content li{font-size:1.1em;padding:2px 10px 2px 0;}
 li img{width:100%;}
 li p{font-size:1em;font-style:italic;}
