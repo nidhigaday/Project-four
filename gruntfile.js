@@ -30,7 +30,7 @@ module.exports = function(grunt) {
           collapseWhitespace: true
         },
         files: {                                   // Dictionary of files
-          'index.html': 'index.html',     // 'destination': 'source'
+          'index.html': 'Src/index.html',     // 'destination': 'source'
           //'dist/contact.html': 'src/contact.html'
         }
       }
