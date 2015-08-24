@@ -30,7 +30,7 @@ module.exports = function(grunt) {
           collapseWhitespace: true
         },
         files: {                                   // Dictionary of files
-          'index.html': 'Src/index.html',     // 'destination': 'source'
+          'index-minify.html': 'Src/index.html',     // 'destination': 'source'
           //'dist/contact.html': 'src/contact.html'
         }
       }
@@ -47,8 +47,8 @@ module.exports = function(grunt) {
             width: 320,
             height: 70
         },
-        src: 'index.html',
-        dest: 'index-critical.html'
+        src: 'index-minify.html',
+        dest: 'index.html'
       }
     }
 
