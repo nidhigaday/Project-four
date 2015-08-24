@@ -21,12 +21,26 @@ module.exports = function(grunt) {
           dest: 'img/'                   // Destination path prefix
         }]
       }
-    }
+    },
+
+    htmlmin: {                                     // Task
+      dist: {                                      // Target
+        options: {                                 // Target options
+          removeComments: true,
+          collapseWhitespace: true
+        },
+        files: {                                   // Dictionary of files
+          'Dest/index.html': 'index.html',     // 'destination': 'source'
+          //'dist/contact.html': 'src/contact.html'
+        }
+      }
+    },
 
   });
 
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
-  grunt.registerTasks('default', ['cssmin', 'imagemin']);
+  grunt.registerTasks('default', ['cssmin', 'imagemin', 'htmlmin']);
 };
