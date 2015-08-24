@@ -32,7 +32,7 @@ module.exports = function(grunt) {
               },
               files: {                                 // Dictionary of files
                   'minified/index.html': 'Src/index.html',     // 'destination': 'source'
-                  'minified/project-webperf.html': 'src/project-webperf.html'
+                  'minified/project-webperf.html': 'Src/project-webperf.html'
               }
           }
       },
