@@ -9,10 +9,12 @@ module.exports = function(grunt) {
     uncss: {
       dist: {
         files: [
-          { src: 'src/*.html', dest: 'dist/css/compiled.min.css'}
+          { src: '*/*.html', dest: 'dist/compiled.min.html'}
+          { src: '*/*.css', dest: 'dist/css/compiled.min.css'}
+
         ]
-      }
-      /*options: {
+      },
+      options: {
         compress:true
       }
     },
@@ -23,7 +25,7 @@ module.exports = function(grunt) {
         }
       }
     },
-    uglify: {
+    /*uglify: {
       dist: {
         files: {
           'dist/js/compiled.min.js': ['src/js/jquery.js','src/js/*.js'] // make sure we load jQuery first
@@ -34,8 +36,8 @@ module.exports = function(grunt) {
   // Load the plugins
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-uncss');
-  //grunt.loadNpmTasks('grunt-processhtml');
+  grunt.loadNpmTasks('grunt-processhtml');
   //grunt.loadNpmTasks('grunt-contrib-uglify');
   // Default tasks.
-  grunt.registerTask('default', ['copy', 'uncss']);
+  grunt.registerTask('default', ['copy', 'uncss', 'processhtml']);
 };
