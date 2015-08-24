@@ -36,11 +36,28 @@ module.exports = function(grunt) {
       }
     },
 
+    critical: {
+      test: {
+        options: {
+            base: './',
+            css: [
+                'css/style.css',
+                'css/media.css'
+            ],
+            width: 320,
+            height: 70
+        },
+        src: 'index.html',
+        dest: 'index-critical.html'
+      }
+    }
+
   });
 
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
+  grunt.loadNpmTasks('grunt-critical');
 
-  grunt.registerTasks('default', ['cssmin', 'imagemin', 'htmlmin']);
+  grunt.registerTasks('default', ['cssmin', 'imagemin', 'htmlmin', 'critical']);
 };
