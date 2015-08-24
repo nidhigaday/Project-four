@@ -61,5 +61,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-critical');
 
-  grunt.registerTasks('default', ['cssmin', 'imagemin', 'htmlmin', 'critical']);
+  grunt.registerTask('default', ['cssmin', 'imagemin', 'htmlmin', 'critical']);
 };
