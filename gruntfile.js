@@ -55,13 +55,22 @@ module.exports = function(grunt) {
                   //'education.html': 'minified/education.html'
               }
           }
+      },
+
+      concat: {
+          dist: {
+              src: ['css/style.css', 'css/about.css'],
+              dest: 'css/aboutstyle.css'
+          }
       }
+
   });
 
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-critical');
+  grunt.loadNpmTasks('grunt-contrib-concat');
 
-  grunt.registerTask('default', ['cssmin', 'imagemin', 'htmlmin', 'critical']);
+  grunt.registerTask('default', ['cssmin', 'imagemin', 'htmlmin', 'critical', 'concat']);
 };
