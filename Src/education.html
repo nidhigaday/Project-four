@@ -8,7 +8,7 @@
     <meta name="author" content=" Nidhi Gaday ">
     <title>Nidhi Gaday: Portfolio</title>
 
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/aboutstyle.css" rel="stylesheet">
     <link href="css/print.css" rel="stylesheet" media="print">
     <link href="css/media.css" rel="stylesheet" media="(max-width:480px)">
 
@@ -35,15 +35,20 @@
 
     <div class="container">
         <div class="hero">
-            I love learning new things and reading. In my opinion, you can learn from anywhere although, formal education has its own importance.
+            <i>I love learning new things and reading novels. Lately, I've been reading J.R.R Tolkien books just for a change and I am enjoying it.</i>
         </div>
 
-        <div class="content">
-            <p>I am a graduate of Internet Technology with 1 year commercial experience working as technical specialist for web platforms for Online Learning. For the last 1 year I’ve been working on enhancing my responsive web design, front-end development, and Bootstrap skills.
-            <img src="img/aboutme.png" style="float: right;">
-            </p>
+        <div class="content" id="aboutme"></div>
 
-        </div>
+        <script src="js/about.js"></script>
+        <script type="text/javascript">
+            if(document.getElementsByClassName('about').length === 0) {
+                document.getElementById('aboutme').style.backgroundColor = 'black';
+            }
+            if(document.getElementsByClassName('avatar').length === 0) {
+                document.getElementById('aboutme').style.backgroundColor = 'black';
+            }
+        </script>
 
         <script>WebFontConfig = {
             google: { families: ['Titillium Web:400,700'] }
