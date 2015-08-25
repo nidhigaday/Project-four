@@ -32,7 +32,8 @@ module.exports = function(grunt) {
               },
               files: {                                 // Dictionary of files
                   'minified/index.html': 'Src/index.html',     // 'destination': 'source'
-                  'minified/project-webperf.html': 'Src/project-webperf.html'
+                  'minified/project-webperf.html': 'Src/project-webperf.html',
+                  'minified/education.html': 'Src/education.html'
               }
           }
       },
@@ -50,7 +51,8 @@ module.exports = function(grunt) {
               },
               files:{
                   'index.html': 'minified/index.html',
-                  'project-webperf.html': 'minified/project-webperf.html'
+                  'project-webperf.html': 'minified/project-webperf.html',
+                  'education.html': 'minified/education.html'
               }
           }
       }
