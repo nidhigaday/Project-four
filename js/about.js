@@ -3,8 +3,8 @@ var bio = {
     "aboutpic": "Project-four/img/aboutme.png",
 
     "display": function() {
-        var formattedabout = HTMLabout.replace("%data%", bio["about"]);
-        var formattedaboutpic = HTMLavatar.replace("%data%", bio["aboutpic"]);
+        var formattedabout = HTMLabout.replace("%data%", "bio.about");
+        var formattedaboutpic = HTMLavatar.replace("%data%", "bio.aboutpic");
     }
 };
 
