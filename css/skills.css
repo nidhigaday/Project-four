@@ -1,0 +1,13 @@
+ul li {pointer-events:none;}
+.skills{
+	width:100%;
+    display:flex;
+}
+
+.list{width:50%;}
+.skills ul{
+    display: block;
+}
+.skills p{
+	margin-top: 30px;
+}

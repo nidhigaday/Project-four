@@ -33,7 +33,8 @@ module.exports = function(grunt) {
               files: {                                 // Dictionary of files
                   'minified/index.html': 'Src/index.html',     // 'destination': 'source'
                   'project-webperf.html': 'Src/project-webperf.html',
-                  'education.html': 'Src/education.html'
+                  'education.html': 'Src/education.html',
+                  'work-experience.html': 'Src/work-experience.html'
               }
           }
       },
@@ -59,8 +60,8 @@ module.exports = function(grunt) {
 
       concat: {
           dist: {
-              src: ['css/style.css', 'css/about.css'],
-              dest: 'css/aboutstyle.css'
+              'css/aboutstyle.css': ['css/style.css', 'css/about.css'],
+              'css/skillstyle.css': ['css/style.css', 'css/skills.css']
           }
       }
 

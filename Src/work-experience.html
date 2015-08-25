@@ -1,64 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Website optimization" content="Methods to make website faster ">
-    <meta name="author" content=" FILL ME IN ">
+    <meta name="Skills & Experience" content="List of my skills and experience">
+    <meta name="author" content=" Nidhi Gaday ">
+
     <title>Nidhi Gaday: Portfolio</title>
 
-    <!-- Hmm, what is the impact of web fonts on speed? Measure it... -->
-    <!-- <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> -->
-
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/print.css" rel="stylesheet">
+    <link href="css/skillstyle.css" rel="stylesheet">
+    <link href="css/print.css" rel="stylesheet" media="print">
+    <link href="css/media.css" rel="stylesheet" media="(max-width:480px)">
 
     <script>
-      (function(w,g){w['GoogleAnalyticsObject']=g;
-      w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
+        (function(w,g){w['GoogleAnalyticsObject']=g;
+        w[g]=w[g]||function(){
+        (w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
 
-      // TODO: replace with your Google Analytics profile ID.
-      ga('create', 'UA-XXXX-Y');
-      ga('send', 'pageview');
+        // TODO: replace with your Google Analytics profile ID.
+        ga('create', 'UA-65945752-1');
+        ga('send', 'pageview');
     </script>
     <script async src="http://www.google-analytics.com/analytics.js"></script>
     <script async src="js/perfmatters.js"></script>
-  </head>
 
-  <body>
+</head>
+<body>
     <header>
-      <img src="img/profilepic2.png">
-      <p>Nidhi Gaday<br>
-      <span>Web Developer</span>
-      <a href="index.html" style="float: right;"><button>Home</button></a>
-      </p>
+        <img src="img/profilepic2.png">
+        <p>Nidhi Gaday<br>
+        <span>Web Developer</span>
+        <a href="index.html" style="float: right;"><button>Home</button></a>
+        </p>
     </header>
-
     <div class="container">
-      <div class="hero">
-        <p>"Design is not just what it looks like and feels like. Design is how it works."<br>- Steve Jobs</p>
-      </div>
+        <div class="hero">
+            <p>"Design is not just what it looks like and feels like. Design is how it works."<br>- Steve Jobs</p>
+        </div>
 
-      <div class="content">
+        <div class="content">
+            <div class="skills">
+              <div class="list">
+                <ul><h1>Skills</h1>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Responsive Web Design</li>
+                    <li>Front-end Performance</li>
+                <ul>
+              </div>
+              <div>
+                <p>In this project I have learned about the Website Performance Optimization processes and techniques. Most importantly I am very excited about Grunt. It is a great tool to automize minificaiton and concatination.</p><br>
+                <p>Checkout my Documentation for Website optimization!</p>
+              </div>
+            </div>
+        </div>
 
-        <ul>
-          <li><a href="http://embanet.com/careers/current-openings?doing_wp_cron=1437060078.6322329044342041015625" target="_blank">Technical Support Specialist</a>
-              <br>Pearson Online Services - Toronto, ON
-              <p><strong>Responsibilities and Achievements</strong></p>
+        <script>WebFontConfig = {
+            google: { families: ['Titillium Web:400,700'] }
+            };
+            (function(d) {
+            var wf = d.createElement('script'), s = d.scripts[0];
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
+            s.parentNode.insertBefore(wf, s);
+            })(document);
+        </script>
 
-              <ul>
-                  <li>Provided technical support to the non-technical users with efficiency. Received excellent feedback.</il>
-                  <li>Gained knowledge of customer point of view towards web technologies. Kept uptodate knowledge.</il>
-                  <li>Provided suggestions to Team Lead to troubleshoot or resolve variona issues.</il>
-              </ul>
-
-          </li>
-        </ul>
-
-      </div>
-
-    <footer>
-      <p>&copy; Web Performance 2015 <span id="crp-stats"></span></p>
-    </footer>
+        <footer>
+            <p>&copy; Web Performance 2015 <span id="crp-stats"></span></p>
+        </footer>
+    </div>
   </body>
 </html>
