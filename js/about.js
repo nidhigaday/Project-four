@@ -15,4 +15,5 @@ var HTMLavatar = '<img src="%data%">';
 
 $("#aboutme").append(HTMLaboutStart);
 $(".about").append(formattedabout);
+$("#aboutme").append(HTMLaboutStart);
 $(".avatar").append(formattedaboutpic);
