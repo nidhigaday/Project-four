@@ -1,11 +1,10 @@
-.about {
-    padding:20px 10px;
+.about p{
+    padding:10px;
     color:#FFF;
     background-color:#222;
-    width:
 }
 
-.about img {
-    width: 300px;
+.avatar {
+    width:300px;
     float:right;
 }

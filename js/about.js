@@ -8,8 +8,11 @@ var bio = {
     }
 };
 
+var HTMLaboutStart = '<div class="about"></div>';
+var HTMLabout = '<p>%data%</p>';
+var HTMLaboutStart = '<div class="avatar"></div>';
+var HTMLavatar = '<img src="%data%">';
+
+$("#aboutme").append(HTMLaboutStart);
 $(".about").append(formattedabout);
 $(".avatar").append(formattedaboutpic);
-
-var HTMLabout = '<div class="about">%data%</div>';
-var HTMLavatar = '<img src="%data%" class="avatar">';
