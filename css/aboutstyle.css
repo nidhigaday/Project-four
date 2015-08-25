@@ -30,10 +30,7 @@ footer span{float:right;}
 
 #aboutme {
     width:100%;
-}
-.about, .avatar {
-    margin:5px;
-    padding:5px;
+    display:flex;
 }
 
 .about {
@@ -42,30 +39,14 @@ footer span{float:right;}
 
 .avatar {
     width: 33.33333333%;
+    margin:10px;
+    padding:10px;
 }
 
+.avatar img {width:100%;}
 
-
-
-
-.col-xs-12 {
-  width: 100%;
-}
-.col-xs-8 {
-  width: 66.66666667%;
-}
-.col-xs-7 {
-  width: 58.33333333%;
-}
-.col-xs-6 {
-  width: 50%;
-}
-.col-xs-5 {
-  width: 41.66666667%;
-}
-.col-xs-4 {
-  width: 33.33333333%;
-}
-.col-xs-3 {
-  width: 25%;
+@media only screen and (max-width:700px) {
+#aboutme{display: block;}
+.about{width: 100%;}
+.avatar{width: initial;}
 }
