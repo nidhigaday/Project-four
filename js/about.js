@@ -18,4 +18,4 @@ var bio = {
     }
 };
 
-
+bio.display();
