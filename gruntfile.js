@@ -24,6 +24,26 @@ module.exports = function(grunt) {
           }
       },
 
+      uglify: {
+          options: {
+              mangle: false
+              },
+          my_target: {
+              files: {
+                'js/about.min.js': ['js/about.js'],
+                'js/perfmatters.min.js': ['js/perfmatters.js'],
+                'js/jQuery.min.js': ['js/jQuery.js']
+              }
+          }
+      },
+
+      concat: {
+          dist: {
+              'css/aboutstyle.css': ['css/style.css', 'css/about.css'],
+              'css/skillstyle.css': ['css/style.css', 'css/skills.css']
+          }
+      },
+
       htmlmin: {                                       // Task
           dist: {                                      // Target
               options: {                               // Target options
@@ -56,22 +76,16 @@ module.exports = function(grunt) {
                   //'education.html': 'minified/education.html'
               }
           }
-      },
-
-      concat: {
-          dist: {
-              'css/aboutstyle.css': ['css/style.css', 'css/about.css'],
-              'css/skillstyle.css': ['css/style.css', 'css/skills.css']
-          }
       }
-
   });
 
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-critical');
-  grunt.loadNpmTasks('grunt-contrib-concat');
 
-  grunt.registerTask('default', ['cssmin', 'imagemin', 'htmlmin', 'critical', 'concat']);
+
+  grunt.registerTask('default', ['cssmin', 'imagemin', 'uglify','concat', 'htmlmin', 'critical']);
 };
