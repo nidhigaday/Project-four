@@ -1,4 +1,14 @@
-## Website Performance Optimization portfolio project
+## Website Performance Optimization portfolio projectby Nidhi Gaday
+
+# My optimization:
+I customized entire website and used following techniques to make index.html faster:
+- Asynced unnecessary Javascript files
+- Used less CSS as much as possible to keep file size small
+- minified HTML, CSS, images and JS files usign Grunt Plugins
+
+I aimed for Udacious Project. According to which I did not need to optimized Pizza.html, so I removed it from teh website. I have added Documentation and Resources that I used to understand concepts.
+----------------------------------------------------------------------------------------------------------------------
+
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
 
