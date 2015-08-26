@@ -4,7 +4,7 @@
 I customized entire website and used following techniques to make index.html faster:
 - Asynced unnecessary Javascript files
 - Used less CSS as much as possible to keep file size small
-- minified HTML, CSS, images and JS files usign Grunt Plugins
+- Minified HTML, CSS, images and JS files usign Grunt Plugins
 
 ####I aimed for Udacious Project. According to which I did not need to optimized Pizza.html, so I removed it from teh website. I have added Documentation and Resources that I used to understand concepts.
 ----------------------------------------------------------------------------------------------------------------------
