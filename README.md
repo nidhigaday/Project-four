@@ -1,6 +1,6 @@
 ## Website Performance Optimization portfolio projectby Nidhi Gaday
 
-My Profile - http://nidhigaday.github.io/project4/
+http://nidhigaday.github.io/Website_optimization/
 
 ### Optimization for Index.html:
 I customized entire website and used following techniques to make index.html faster:
